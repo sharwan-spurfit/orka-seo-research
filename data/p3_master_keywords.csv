@@ -456,7 +456,7 @@ alternative to strava app,alternatives,strava alternative,"Google Autocomplete (
 alternative to strava for cycling,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 alternative to strava for running,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 alternative to strava for walking,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
-alternative to strava heatmap,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
+alternative to strava heatmap,off_topic,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 alternative to strava reddit,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 alternative to strava route builder,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 alternative to strava routes,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
@@ -593,7 +593,7 @@ bengaluru marathon 2026 registration,india_race_calendar,bengaluru marathon,"Goo
 bengaluru marathon 2026 route,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 bengaluru marathon 2027,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 bengaluru marathon calendar,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
-bengaluru marathon certificate,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
+bengaluru marathon certificate,india_race_info,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 bengaluru marathon coupon code,india_race_info,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 bengaluru marathon cut off time,india_race_info,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 bengaluru marathon date,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,1
@@ -626,7 +626,7 @@ bengaluru marathon start time,india_race_calendar,bengaluru marathon,"Google Aut
 bengaluru marathon starting point,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 bengaluru marathon tcs,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 bengaluru marathon timing,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,2
-bengaluru marathon timing certificate,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
+bengaluru marathon timing certificate,india_race_info,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 bengaluru marathon timing results,india_race_info,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 bengaluru marathon today,india_race_calendar,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 bengaluru marathon training run,india_race_plans,bengaluru marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
@@ -1287,7 +1287,7 @@ delhi half marathon announced for october with registrations now open,india_race
 delhi half marathon april 2026,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 delhi half marathon best time,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 delhi half marathon bib collection,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
-delhi half marathon certificate,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
+delhi half marathon certificate,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 delhi half marathon course record,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 delhi half marathon cut off time,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 delhi half marathon date,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,1
@@ -1341,7 +1341,7 @@ delhi half marathon start time,india_race_calendar,delhi half marathon,"Google A
 delhi half marathon t shirt,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 delhi half marathon time india,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 delhi half marathon timing,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,1
-delhi half marathon timing certificate,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
+delhi half marathon timing certificate,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 delhi half marathon today,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 delhi half marathon traffic,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 delhi half marathon upcoming,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
@@ -2499,14 +2499,14 @@ ideal heart rate zone while running,hr_zones,heart rate zone running,"Google Aut
 ideal marathon taper,taper,marathon taper,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 india half marathon national record,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 india half marathon record,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
-india marathon app,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
+india marathon app,india_race_info,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 india marathon asian games,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 india marathon calendar 2025,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,2
 india marathon calendar 2025 pdf,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 india marathon calendar 2025 start date,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 india marathon calendar 2026,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,3
 india marathon calendar 2026 pdf,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,1
-india marathon calendar 2026 pdf free download,india_race_calendar,marathon calendar india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,7,0
+india marathon calendar 2026 pdf free download,india_race_info,marathon calendar india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,7,0
 india marathon calendar 2026 start date,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 india marathon com,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 india marathon date,india_race_calendar,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
@@ -3830,7 +3830,7 @@ mumbai marathon 2027,india_race_calendar,mumbai marathon,"Google Autocomplete (g
 mumbai marathon 2027 date,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon 2027 registration,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon aarambhh singh,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
-mumbai marathon app,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
+mumbai marathon app,india_race_info,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 mumbai marathon asics,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,1
 mumbai marathon asics shoes,shoes_india,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon aug 30,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
@@ -3848,7 +3848,7 @@ mumbai marathon brand ambassador,india_race_calendar,mumbai marathon,"Google Aut
 mumbai marathon building,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 mumbai marathon calendar,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,1
 mumbai marathon calendar 2026,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
-mumbai marathon certificate download,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
+mumbai marathon certificate download,india_race_info,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon charity bib,india_race_info,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon confirmation criteria,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon cost,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
@@ -3989,7 +3989,7 @@ mumbai marathon tcs,india_race_calendar,mumbai marathon,"Google Autocomplete (gl
 mumbai marathon this weekend,india_race_plans,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon ticket price,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon timing,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,1
-mumbai marathon timing certificate,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
+mumbai marathon timing certificate,india_race_info,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 mumbai marathon today,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 mumbai marathon tomorrow,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 mumbai marathon tshirt,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
@@ -4557,7 +4557,7 @@ running app hal,running_app,running app,"Google Autocomplete (gl=in,hl=en)",2026
 running app half marathon,running_app,running app,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,1
 running app half marathon training,running_app,running app,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 running app health,running_app,running app,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
-running app heat maps,india_heat,running app,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
+running app heat maps,off_topic,running app,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 running app huawei,running_app,running app,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 running app icon,running_app,running app,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 running app image,running_app,running app,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
@@ -5644,7 +5644,7 @@ strava alternative gratuite,alternatives,strava alternative,"Google Autocomplete
 strava alternative hiking,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 strava alternative in china,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 strava alternative in korea,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
-strava alternative india,india_race_calendar,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
+strava alternative india,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 strava alternative ios,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 strava alternative iphone,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 strava alternative kostenlos,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
@@ -5667,7 +5667,7 @@ strava best alternative,alternatives,strava alternative,"Google Autocomplete (gl
 strava european alternative,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 strava free alternative reddit,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
 strava group challenges alternative,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
-strava heatmap alternative,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
+strava heatmap alternative,off_topic,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 strava komoot alternative,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 strava map alternative,alternatives,strava alternative,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 strava marathon pace predictor,alternatives,marathon time predictor,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
@@ -5922,8 +5922,8 @@ taper vor marathon,taper,marathon taper,"Google Autocomplete (gl=in,hl=en)",2026
 tapering marathon krafttraining,taper,marathon taper,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,3,0
 target heart rate zone while running,hr_zones,heart rate zone running,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 tata marathon indian winner,india_race_info,marathon india,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
-tata mumbai marathon app,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,1
-tata mumbai marathon app download,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
+tata mumbai marathon app,india_race_info,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,1
+tata mumbai marathon app download,india_race_info,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 tata mumbai marathon cut off time,india_race_info,tata mumbai marathon training,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 tata mumbai marathon eligibility criteria,india_race_calendar,tata mumbai marathon training,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 tata mumbai marathon km,india_race_calendar,mumbai marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,4,0
@@ -6022,13 +6022,13 @@ vedanta delhi half marathon 2026 qualification,india_race_calendar,delhi half ma
 vedanta delhi half marathon 2026 registration,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,1
 vedanta delhi half marathon 2026 registration date,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,7,0
 vedanta delhi half marathon 20th edition,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
-vedanta delhi half marathon app,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
+vedanta delhi half marathon app,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 vedanta delhi half marathon bib collection,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 vedanta delhi half marathon bib expo,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 vedanta delhi half marathon booking,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
-vedanta delhi half marathon certificate,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,2
-vedanta delhi half marathon certificate download,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,1
-vedanta delhi half marathon certificate download pdf,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,7,0
+vedanta delhi half marathon certificate,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,2
+vedanta delhi half marathon certificate download,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,1
+vedanta delhi half marathon certificate download pdf,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,7,0
 vedanta delhi half marathon contact number,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 vedanta delhi half marathon criteria,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 vedanta delhi half marathon cut off time,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,7,0
@@ -6070,7 +6070,7 @@ vedanta delhi half marathon start time,india_race_calendar,delhi half marathon,"
 vedanta delhi half marathon start waves,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 vedanta delhi half marathon starting point,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 vedanta delhi half marathon timing,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,1
-vedanta delhi half marathon timing certificate,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
+vedanta delhi half marathon timing certificate,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,6,0
 vedanta delhi half marathon tshirt,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 vedanta delhi half marathon website,india_race_calendar,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,0
 vedanta delhi half marathon winner,india_race_info,delhi half marathon,"Google Autocomplete (gl=in,hl=en)",2026-10-21,IN,5,1

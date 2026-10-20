@@ -48,12 +48,13 @@ CL = {
 "hyrox_other": ("Hyrox/ultra/trail/other disciplines",2,2,2,2,1,"informational","adjacent; not core"),
 "off_topic": ("Off-topic / non-running noise",1,1,1,1,5,"n/a","autocomplete noise (e.g. 'running stitch', 'race ready suspension')"),
 }
-OFF = re.compile(r"equilibrium|average cost|long run (cost|production|golf|zone$)|short run|tantrum|heater|quarkus|repair|race ready (?!quiz|test|calculator|checklist|score|readiness)|garage|alignments|detailing|\bmx\b|electric|green marathon|marathon (sports|x)\b|first light|captions?\b|vancouver|meal|lauriat|quotes|xarelto|stock|umamusume|karts?\\b|man india|series points|midwest|iberian|\\bxl\\b|territory|\\bjs\\b|administrator|app (name|design|login|ui)\\b|\\bgif\\b|\\brug\\b|8 year|second hand|motor|times of india|pvt|stitch|jsx|capture territory|marks? territory|dictation|long jump|zumba|spikes|suspension|wheels|mx207|clock|football|cost curve|demand curve|wealth|quotes|hangover|lauriat|lily|red\b|extra cushion|bike|\bman\b|honda|st jude|olympics|americans|photos? .*free|race ready (kendal|hcma|lap|side)", re.I)
+OFF = re.compile(r"equilibrium|average cost|long run (cost|production|golf|zone$)|short run|tantrum|heater|quarkus|repair|race ready (?!quiz|test|calculator|checklist|score|readiness)|garage|alignments|detailing|\bmx\b|electric|green marathon|marathon (sports|x)\b|first light|captions?\b|vancouver|meal|lauriat|quotes|xarelto|stock|umamusume|karts?\\b|man india|series points|midwest|iberian|\\bxl\\b|territory|\\bjs\\b|administrator|app (name|design|login|ui)\\b|\\bgif\\b|\\brug\\b|8 year|second hand|motor|times of india|pvt|heat ?maps?|stitch|jsx|capture territory|marks? territory|dictation|long jump|zumba|spikes|suspension|wheels|mx207|clock|football|cost curve|demand curve|wealth|quotes|hangover|lauriat|lily|red\b|extra cushion|bike|\bman\b|honda|st jude|olympics|americans|photos? .*free|race ready (kendal|hcma|lap|side)", re.I)
 def classify(k):
     if OFF.search(k): return "off_topic"
+    if re.search(r"alternative|\bvs\b|versus|\brunna\b|nike run club|\bnrc\b|strava", k): return "alternatives"
     india = re.search(r"mumbai|delhi|bengaluru|bangalore|chennai|hyderabad|kolkata|pune|tata|airtel|wipro|india|aims|vadodara|chandigarh", k)
     if india:
-        if re.search(r"result|winner|photo|coupon|history|expo|prize|bib|cut.?off|route map|sponsor|watch(es)?\b", k): return "india_race_info"
+        if re.search(r"result|winner|photo|coupon|history|expo|prize|bib|cut.?off|route map|sponsor|watch(es)?\b|certificate|\bapp\b|download", k): return "india_race_info"
         if re.search(r"shoe", k): return "shoes_india"
         if re.search(r"\bheat\b|humid|monsoon|weather|summer", k): return "india_heat"
         if re.search(r"train|plan|prepar|how to|schedule|beginner|week|tips|pace|diet|nutrition", k): return "india_race_plans"
@@ -94,7 +95,7 @@ def intent_of(k, cl):
     if re.search(r"plan|schedule|program|pdf|template|workout", k): return "plan-seeking"
     if re.search(r"^(how|what|why|when|is|can|should|does)\b|tips|guide|mean|explained", k): return "informational"
     if cl in ("india_race_calendar", "india_race_info"): return "navigational/informational"
-    return CL[cl][7]
+    return CL[cl][6]
 
 # ---------- master DB (phases 3-4)
 ext = collections.Counter()
@@ -148,7 +149,7 @@ for k in allk:
     cl = seen_cl[k]
     it, v = kwscore(k, cl)
     krows.append([k, cl, it] + v + [sc(v, W["base"])])
-wr("p7_p9_keyword_scores.csv", ["keyword","topic_cluster","intent"]+WN+["score_base"], krows)
+wr("p7_p9_keyword_scores.csv", ["keyword","topic_cluster","intent_label","relevance","demand","intent_score","competition_ease","opportunity","value","confidence","score_base"], krows)
 
 # ---------- cluster scoring + weight sensitivity
 crows = []

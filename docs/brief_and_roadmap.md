@@ -1,13 +1,13 @@
 # Orka Run: India SEO keyword research — brief and roadmap
 
-Market: India, English. Free sources only. Date: 2026-10-20. All numbers trace to `data/*.csv` (built by `scripts/build_research.py`, `scripts/build_static.py`).
+Market: India, English. Free sources only. Date: 2026-10-20. Google Sheet: https://docs.google.com/spreadsheets/d/1jCDwY1JABbnksw1wKwQfeP2YR1b4K3614EpdHlDL7F0/edit All numbers trace to `data/*.csv` (built by `scripts/build_research.py`, `scripts/build_static.py`).
 
 ## Limits (read first)
 1. **No absolute search volumes.** Nothing here is a monthly search count. Demand is a 1–4 proxy; a 5 needs real evidence.
 2. **SERPs were read with a US-only search tool**, not google.co.in. India results will differ. Competition ratings are one analyst's judgment.
-3. **Autocomplete is not volume.** It shows what Google suggests. About 520 of ~6,200 phrases are noise (e.g. "race ready go kart", "running stitch") and are kept in the database, scored low via the `off_topic` cluster.
+3. **Autocomplete is not volume.** It shows what Google suggests. About 530 of ~6,200 phrases are noise (e.g. "race ready go kart", "running stitch") and are kept in the database, scored low via the `off_topic` cluster.
 4. **Google Trends could not be re-run** in this cloud session (the proxy returns 403 for trends.google.com). Only the earlier local 5-term probe exists: marathon 45, running shoes 44, running app 5, mumbai marathon 2.4, marathon training plan ~0 (relative, India, 12 months).
-5. The autocomplete set found almost nothing for the three biggest SERP gaps (India race plans: 12 phrases, India heat: 5, missed training: 6). Those clusters are **bets on low-volume, high-fit queries**, not proven demand.
+5. The autocomplete set found almost nothing for the three biggest SERP gaps (India race plans: 12 phrases, India heat: 4, missed training: 6). Those clusters are **bets on low-volume, high-fit queries**, not proven demand.
 6. Rule kept: no keyword was filtered or weighted by the site's existing content or GSC rankings.
 
 ## Product assumptions (from the landing-page repo)

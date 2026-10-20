@@ -1,9 +1,9 @@
 cluster,label,distinct_autocomplete_phrases,demand_score_1to5,basis,absolute_monthly_volume,confidence
 india_race_plans,India race-specific training plans (Mumbai/Delhi/Bengaluru etc.),12,1,autocomplete breadth only,UNKNOWN (no source),low
-india_heat,Training in Indian heat/humidity,5,1,autocomplete breadth only,UNKNOWN (no source),low
+india_heat,Training in Indian heat/humidity,4,1,autocomplete breadth only,UNKNOWN (no source),low
 missed_training,Missed workouts / re-planning / return from injury,6,1,autocomplete breadth only,UNKNOWN (no source),low
 ai_coach,AI / adaptive running coach apps,108,3,autocomplete breadth only,UNKNOWN (no source),low
-alternatives,Runna / Strava / Nike Run Club alternatives,256,4,autocomplete breadth only,UNKNOWN (no source),low
+alternatives,Runna / Strava / Nike Run Club alternatives,255,4,autocomplete breadth only,UNKNOWN (no source),low
 running_app,Generic 'running app' / best running app,238,3,Trends probe overrides breadth proxy (breadth=3),UNKNOWN (no source),low-medium
 watch_integration,Garmin/COROS/Apple Watch/WHOOP training plans & sync,204,3,autocomplete breadth only,UNKNOWN (no source),low
 watch_buying,Running watch buying,194,3,autocomplete breadth only,UNKNOWN (no source),low
@@ -24,9 +24,9 @@ plan_generic,Generic running training plan / program,49,2,autocomplete breadth o
 beginner_running,Running for beginners / how to start,161,3,autocomplete breadth only,UNKNOWN (no source),low
 brand_plan,"Named-method plans (Higdon, Hanson, Galloway, brand plans)",77,2,autocomplete breadth only,UNKNOWN (no source),low
 race_readiness,Race readiness / am I ready,0,1,autocomplete breadth only,UNKNOWN (no source),low
-india_race_calendar,India race calendar / events / registration,672,2,Trends probe overrides breadth proxy (breadth=4),UNKNOWN (no source),low-medium
-india_race_info,India race results/winners/photos/coupons,118,3,autocomplete breadth only,UNKNOWN (no source),low
+india_race_calendar,India race calendar / events / registration,655,2,Trends probe overrides breadth proxy (breadth=4),UNKNOWN (no source),low-medium
+india_race_info,India race results/winners/photos/coupons,134,3,autocomplete breadth only,UNKNOWN (no source),low
 shoes_india,"Running shoes for Indian runners (budget, beginners)",25,2,autocomplete breadth only,UNKNOWN (no source),low
 shoes_generic,Running shoes (generic),503,5,Trends probe overrides breadth proxy (breadth=4),UNKNOWN (no source),low-medium
 hyrox_other,Hyrox/ultra/trail/other disciplines,26,2,autocomplete breadth only,UNKNOWN (no source),low
-off_topic,Off-topic / non-running noise,530,4,autocomplete breadth only,UNKNOWN (no source),low
+off_topic,Off-topic / non-running noise,533,4,autocomplete breadth only,UNKNOWN (no source),low
