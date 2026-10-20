@@ -1,0 +1,6 @@
+term,relative_index_IN_12m,maps_to,note
+marathon,45,head term,relative only; no absolute volume; from earlier local session. Re-run blocked in cloud container (proxy 403 to trends.google.com)
+running shoes,44,shoes_generic/shoes_india,relative only; no absolute volume; from earlier local session. Re-run blocked in cloud container (proxy 403 to trends.google.com)
+running app,5,running_app,relative only; no absolute volume; from earlier local session. Re-run blocked in cloud container (proxy 403 to trends.google.com)
+mumbai marathon,2.4,india_race_calendar,relative only; no absolute volume; from earlier local session. Re-run blocked in cloud container (proxy 403 to trends.google.com)
+marathon training plan,0.0,"marathon_plan (reads ~0, i.e. below Trends threshold relative to 'marathon')",relative only; no absolute volume; from earlier local session. Re-run blocked in cloud container (proxy 403 to trends.google.com)

@@ -1,0 +1,21 @@
+wave,priority,title,target_keyword,cluster,format,outline_points,internal_links,success_metric,effort
+1,1,Missed a run? How to re-plan your training,garmin training plan missed workout,missed_training,guide,What the research says about missed days; rules by days missed; worked examples; how Orka re-plans,"/download, race pages, time predictor","Impressions, avg position, installs from page",M
+1,2,Tata Mumbai Marathon training plan (17 Jan 2027),tata mumbai marathon training plan,india_race_plans,race page + guide,Weeks-to-race builder; heat; course notes; verify date at official site,"/races/*, predictor, /download","Position, clicks, installs",M
+1,3,Delhi Half / Bengaluru / Hyderabad race plan sections,delhi half marathon training plan,india_race_plans,race page sections,"Per-race heat, course profile, plan template","/races, guide",Clicks per race page,M
+1,4,Strava alternative (honest comparison),strava alternative,alternatives,comparison,Criteria table; where Strava wins; where Orka differs,"/download, integrations","Position, installs",M
+1,5,Runna alternative,runna alternative,alternatives,comparison,"Price, adaptiveness, watch support, India availability",/download,"Position, installs",M
+1,6,Running in Indian heat and humidity,mumbai marathon weather,india_heat,guide,"Acclimatisation, pacing by effort/HR, hydration, cite sources; flag unsourced rules of thumb","race pages, plans","Impressions, links",M
+2,7,Sub-2 half marathon plan,sub 2 half marathon,goal_time,guide,"Pace table in km, week structure, readiness check","predictor, /download",Position,M
+2,8,Sub-4 marathon plan,sub 4 marathon,goal_time,guide,"Same, marathon",predictor,Position,M
+2,9,Sub-50 10k plan,sub 50 10k,goal_time,guide,,predictor,Position,S
+2,10,AI running coach (landing),ai running coach,ai_coach,landing,"What adaptive means, evidence, limits",/download,Installs,M
+2,11,HRV and running: should you change today's run?,hrv running,hrv,guide,Trend vs single reading; decision table; caveats,integrations,Position,M
+2,12,Garmin / COROS / Apple Watch / WHOOP integration pages,garmin training plans,watch_integration,integration pages,"What syncs, what adapts",/download,Installs,M
+2,13,Race time predictor explainer + variants,race time predictor,time_predictor,tool enhancement,"Method, accuracy limits, from 5k/10k/half",tools,Tool usage,S
+3,14,First marathon guide,first marathon,marathon_first,guide,Support piece,plans,Position,M
+3,15,10k training plan,10k training plan,plan_10k_5k,plan page,,,Position,M
+3,16,Marathon fueling guide + calculator link,marathon nutrition,fueling,guide,,fueling tool,Tool usage,S
+3,17,Best running shoes for beginners in India,best running shoes for beginners india,shoes_india,guide,"Fit-based, no affiliate bias",shoe finder,Position,M
+3,18,Half marathon training plan,half marathon training plan,half_plan,plan page,Saturated; differentiate with adaptive angle,,Position,M
+3,19,Marathon taper,marathon taper,taper,guide,,plans,Position,S
+4,20,Marathon training plan (generic),marathon training plan,marathon_plan,plan page,Only after waves 1-3 show traction,,Position,L

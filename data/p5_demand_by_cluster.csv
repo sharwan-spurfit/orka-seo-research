@@ -1,0 +1,32 @@
+cluster,label,distinct_autocomplete_phrases,demand_score_1to5,basis,absolute_monthly_volume,confidence
+india_race_plans,India race-specific training plans (Mumbai/Delhi/Bengaluru etc.),12,1,autocomplete breadth only,UNKNOWN (no source),low
+india_heat,Training in Indian heat/humidity,5,1,autocomplete breadth only,UNKNOWN (no source),low
+missed_training,Missed workouts / re-planning / return from injury,6,1,autocomplete breadth only,UNKNOWN (no source),low
+ai_coach,AI / adaptive running coach apps,108,3,autocomplete breadth only,UNKNOWN (no source),low
+alternatives,Runna / Strava / Nike Run Club alternatives,256,4,autocomplete breadth only,UNKNOWN (no source),low
+running_app,Generic 'running app' / best running app,238,3,Trends probe overrides breadth proxy (breadth=3),UNKNOWN (no source),low-medium
+watch_integration,Garmin/COROS/Apple Watch/WHOOP training plans & sync,204,3,autocomplete breadth only,UNKNOWN (no source),low
+watch_buying,Running watch buying,194,3,autocomplete breadth only,UNKNOWN (no source),low
+hrv,HRV for running / readiness decisions,71,2,autocomplete breadth only,UNKNOWN (no source),low
+hr_zones,Heart-rate zones / zone 2,171,3,autocomplete breadth only,UNKNOWN (no source),low
+goal_time,"Goal-time plans (sub-4 marathon, sub-2 half, sub-50 10k)",453,4,autocomplete breadth only,UNKNOWN (no source),low
+time_predictor,Race time predictor / finish-time calculators,177,3,autocomplete breadth only,UNKNOWN (no source),low
+pace_calc,Pace calculators / pace charts,227,3,autocomplete breadth only,UNKNOWN (no source),low
+fueling,Marathon fueling / nutrition / gels,316,4,autocomplete breadth only,UNKNOWN (no source),low
+taper,Marathon taper,169,3,autocomplete breadth only,UNKNOWN (no source),low
+long_run,Long run guidance,154,3,autocomplete breadth only,UNKNOWN (no source),low
+marathon_first,First marathon / beginner marathon,223,3,autocomplete breadth only,UNKNOWN (no source),low
+marathon_plan,Marathon training plan (generic),342,1,Trends probe overrides breadth proxy (breadth=4),UNKNOWN (no source),low-medium
+half_plan,Half marathon training plan (generic),185,3,autocomplete breadth only,UNKNOWN (no source),low
+plan_10k_5k,5K / 10K training plans,300,4,autocomplete breadth only,UNKNOWN (no source),low
+c25k,Couch to 5K,227,3,autocomplete breadth only,UNKNOWN (no source),low
+plan_generic,Generic running training plan / program,49,2,autocomplete breadth only,UNKNOWN (no source),low
+beginner_running,Running for beginners / how to start,161,3,autocomplete breadth only,UNKNOWN (no source),low
+brand_plan,"Named-method plans (Higdon, Hanson, Galloway, brand plans)",77,2,autocomplete breadth only,UNKNOWN (no source),low
+race_readiness,Race readiness / am I ready,0,1,autocomplete breadth only,UNKNOWN (no source),low
+india_race_calendar,India race calendar / events / registration,672,2,Trends probe overrides breadth proxy (breadth=4),UNKNOWN (no source),low-medium
+india_race_info,India race results/winners/photos/coupons,118,3,autocomplete breadth only,UNKNOWN (no source),low
+shoes_india,"Running shoes for Indian runners (budget, beginners)",25,2,autocomplete breadth only,UNKNOWN (no source),low
+shoes_generic,Running shoes (generic),503,5,Trends probe overrides breadth proxy (breadth=4),UNKNOWN (no source),low-medium
+hyrox_other,Hyrox/ultra/trail/other disciplines,26,2,autocomplete breadth only,UNKNOWN (no source),low
+off_topic,Off-topic / non-running noise,530,4,autocomplete breadth only,UNKNOWN (no source),low

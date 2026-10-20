@@ -1,0 +1,9 @@
+metric,source,cadence,baseline_method,target_direction,note
+Impressions and clicks per cluster,"Search Console (Queries x Pages, country=India)",weekly,Snapshot before each publish,up,Group queries by cluster rules in this repo
+"Average position, target query",Search Console,weekly,Per-page baseline at publish,down,Position is noisy under 100 impressions
+Install clicks from organic landing pages,Analytics events on /download and store links,weekly,0 at launch,up,Define the event before launch
+Tool usage from organic,"Analytics events (predictor, fueling, quiz, shoe finder)",weekly,Pre-launch usage,up,
+Indexing,Search Console page indexing,per publish,n/a,indexed in 2 weeks,Submit sitemap
+Backlinks / referring domains,Search Console Links report (free),monthly,Snapshot,up,No paid tool
+Validation of demand,Compare Search Console impressions with Trends probe and autocomplete proxies,quarterly,This research,re-score clusters,First real demand data comes from Search Console after publishing
+Re-run research,"Re-run autocomplete (scripts/ac.py) and Trends (scripts/tr.py, 60s gaps) from a machine with access",quarterly,This dataset,refresh,

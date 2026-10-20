@@ -1,0 +1,24 @@
+cluster,primary_keyword,target_url,page_status,page_type,notes
+alternatives,strava alternative,/alternatives/strava,new,comparison,"One comparison per rival (Runna, Strava, NRC); honest, sourced; link to /download"
+alternatives,runna alternative,/alternatives/runna,new,comparison,
+india_race_plans,tata mumbai marathon training plan,"/races/tata-mumbai-marathon (race page, plan module) + blog guide",existing race page (slug to verify) + new guide,race page + guide,Date 17 Jan 2027 per search results; verify on official site
+india_race_plans,delhi half marathon training plan,/races/delhi-half-marathon (slug to verify),existing race page + new section,race page,"Repeat per major race (Bengaluru, Hyderabad, Chennai, Kolkata, Pune)"
+goal_time,sub 2 half marathon,/blog/sub-2-half-marathon-plan,new,guide + CTA to predictor,"also sub-4 marathon, sub-50 10k"
+missed_training,garmin training plan missed workout,/blog/missed-a-run-how-to-adjust-training,new,guide,Demonstrates re-planning; CTA /download
+ai_coach,ai running coach,/ai-running-coach,new,landing,Core product page
+time_predictor,race time predictor,marathon time predictor tool (slug to verify),existing tool,tool,"Add explainer content, multi-distance variants"
+india_heat,mumbai marathon weather,/blog/running-in-indian-heat,new,guide,Cite sources; flag the unsourced 10-20% per 10C figure
+hrv,hrv running,/blog/hrv-running-should-you-adjust-training,new,guide,Single reading is weak evidence; trend over days
+watch_integration,garmin training plans,"/integrations/garmin (+ coros, apple-watch, whoop, strava)",new,integration pages,
+marathon_first,first marathon,/blog/first-marathon-guide,new,guide,Cluster is competitive; support piece
+plan_10k_5k,10k training plan,/blog/10k-training-plan,new,plan page,Support piece
+half_plan,half marathon training plan,/blog/half-marathon-training-plan,new,plan page,Tier 3
+running_app,running app,/ (home) and /download,existing,home,Brand/broad term; do not target with a blog post
+fueling,marathon nutrition,fueling calculator tool (slug to verify) + /blog/marathon-fueling,existing tool + new guide,tool + guide,
+race_readiness,race readiness,race-readiness quiz (slug to verify),existing tool,tool,No autocomplete evidence; manual seed
+shoes_india,best running shoes for beginners india,shoe finder tool (slug to verify) + /blog/running-shoes-india,existing tool + new guide,tool + guide,Honest fit-based guide
+marathon_plan,marathon training plan,/blog/marathon-training-plan,new,plan page,Saturated; defer
+pace_calc,marathon pace calculator,/tools/pace-calculator,new,tool,Saturated; defer
+taper,marathon taper,/blog/marathon-taper,new,guide,Tier 3
+india_race_calendar,mumbai marathon,/races (catalog),existing,catalog,Race pages carry calendar/info intent
+hr_zones / long_run / c25k / brand_plan / watch_buying / hyrox_other / india_race_info / shoes_generic,,none,parked,,Tier 4: no dedicated page

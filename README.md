@@ -43,3 +43,6 @@ Free adaptive AI running-training app (iOS/Android). Builds plans from goal and 
 Phase 1 brief and framework; competitor DB; master keyword DB with source/date; demand dataset (unknowns and confidence marked); SERP sheet for top candidates with manual competition ratings; intent/relevance; clusters with primary/secondary keywords; scoring with weight sensitivity and tiers; keyword-to-URL map (existing pages: /, /races, /races/[slug], /tracker tools, /blog, /download); roadmap with briefs, internal links and metrics; measurement framework. Then build the Sheet and Doc.
 
 State the limits plainly in the deliverables: no absolute volumes, US-only SERPs, autocomplete is not volume.
+
+## Status (2026-10-20)
+Phases 1-12 complete as CSVs in `data/` (p1..p12) and `docs/brief_and_roadmap.md`. Rebuild with `python3 -I scripts/build_research.py && python3 -I scripts/build_static.py`. Trends could not be re-run in the cloud container (proxy 403). Limits are listed in the brief.

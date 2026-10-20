@@ -1,0 +1,31 @@
+cluster,label,n_keywords,relevance,demand,intent,competition_ease,opportunity,value,confidence,score_base,score_demand_heavy,score_value_heavy,score_low_competition,score_equal,tier_base,best_rank,worst_rank,rank_stability
+alternatives,Runna / Strava / Nike Run Club alternatives,256,5,4,5,3,4,5,3,4.3,4.3,4.5,3.95,4.143,Tier 1,1,3,stable
+india_race_plans,India race-specific training plans (Mumbai/Delhi/Bengaluru etc.),12,5,1,4,4,5,5,3,4.0,3.5,4.25,4.1,3.857,Tier 1,1,5,stable
+goal_time,"Goal-time plans (sub-4 marathon, sub-2 half, sub-50 10k)",453,5,4,4,3,4,4,3,4.0,4.0,4.1,3.8,3.857,Tier 1,2,5,stable
+missed_training,Missed workouts / re-planning / return from injury,6,5,1,3,4,5,5,3,3.85,3.4,4.1,4.0,3.714,Tier 2,2,7,weight-sensitive
+ai_coach,AI / adaptive running coach apps,108,5,3,5,2,3,5,3,3.85,3.8,4.2,3.3,3.714,Tier 2,3,8,weight-sensitive
+time_predictor,Race time predictor / finish-time calculators,177,5,3,5,3,3,4,3,3.85,3.7,4.05,3.55,3.714,Tier 2,4,6,stable
+india_heat,Training in Indian heat/humidity,5,5,1,3,4,5,4,2,3.65,3.15,3.8,3.9,3.429,Tier 2,4,14,weight-sensitive
+hrv,HRV for running / readiness decisions,71,5,2,3,3,4,4,3,3.55,3.3,3.75,3.5,3.429,Tier 2,7,11,stable
+watch_integration,Garmin/COROS/Apple Watch/WHOOP training plans & sync,204,4,3,4,3,3,4,2,3.45,3.4,3.6,3.25,3.286,Tier 2,8,10,stable
+marathon_first,First marathon / beginner marathon,223,5,3,3,2,3,4,3,3.4,3.4,3.65,3.05,3.286,Tier 2,9,11,stable
+plan_10k_5k,5K / 10K training plans,300,4,4,4,2,2,4,2,3.3,3.5,3.5,2.8,3.143,Tier 2,6,15,weight-sensitive
+half_plan,Half marathon training plan (generic),185,5,3,4,1,2,4,3,3.25,3.3,3.6,2.6,3.143,Tier 3,11,17,weight-sensitive
+running_app,Generic 'running app' / best running app,238,4,3,5,1,2,4,3,3.2,3.25,3.5,2.55,3.143,Tier 3,11,18,weight-sensitive
+fueling,Marathon fueling / nutrition / gels,316,4,4,3,2,3,3,3,3.2,3.35,3.25,2.95,3.143,Tier 3,10,16,weight-sensitive
+race_readiness,Race readiness / am I ready,0,4,1,5,3,3,3,2,3.15,2.7,3.3,3.1,3.0,Tier 3,10,22,weight-sensitive
+marathon_plan,Marathon training plan (generic),342,5,1,4,1,2,4,3,2.95,2.7,3.4,2.4,2.857,Tier 3,14,21,weight-sensitive
+shoes_india,"Running shoes for Indian runners (budget, beginners)",25,3,2,5,3,3,2,2,2.95,2.65,2.9,3.0,2.857,Tier 3,12,24,weight-sensitive
+pace_calc,Pace calculators / pace charts,227,4,3,5,1,1,3,3,2.9,2.95,3.15,2.25,2.857,Tier 3,16,23,weight-sensitive
+taper,Marathon taper,169,4,3,3,2,2,3,3,2.9,2.95,3.05,2.6,2.857,Tier 3,16,19,stable
+plan_generic,Generic running training plan / program,49,4,2,4,1,2,4,2,2.85,2.8,3.2,2.3,2.714,Tier 3,17,22,weight-sensitive
+beginner_running,Running for beginners / how to start,161,4,3,3,2,2,3,2,2.85,2.9,3.0,2.55,2.714,Tier 3,18,21,stable
+india_race_calendar,India race calendar / events / registration,672,4,2,1,3,3,4,2,2.85,2.8,3.05,2.85,2.714,Tier 3,14,22,weight-sensitive
+shoes_generic,Running shoes (generic),503,2,5,5,1,1,2,3,2.65,3.05,2.6,2.1,2.714,Tier 4 (park),15,26,weight-sensitive
+long_run,Long run guidance,154,3,3,3,2,2,2,2,2.5,2.55,2.5,2.35,2.429,Tier 4 (park),21,27,weight-sensitive
+c25k,Couch to 5K,227,3,3,4,1,1,3,2,2.5,2.65,2.7,1.95,2.429,Tier 4 (park),23,27,stable
+brand_plan,"Named-method plans (Higdon, Hanson, Galloway, brand plans)",77,3,2,4,1,2,3,2,2.5,2.45,2.7,2.1,2.429,Tier 4 (park),24,27,stable
+hr_zones,Heart-rate zones / zone 2,171,3,3,3,1,1,3,3,2.4,2.6,2.6,1.9,2.429,Tier 4 (park),24,28,stable
+watch_buying,Running watch buying,194,2,3,5,1,1,2,2,2.3,2.4,2.35,1.85,2.286,Tier 4 (park),28,29,stable
+hyrox_other,Hyrox/ultra/trail/other disciplines,26,2,2,3,2,2,2,1,2.1,2.05,2.1,2.05,2.0,Tier 4 (park),26,29,stable
+india_race_info,India race results/winners/photos/coupons,118,2,3,1,1,1,1,2,1.55,1.8,1.5,1.4,1.571,Tier 4 (park),30,30,stable
