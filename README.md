@@ -1,0 +1,45 @@
+# Orka Run SEO keyword research
+
+Market-first keyword research for Orka Run (orkarun.com). Follow the 12-phase plan below exactly.
+
+## Decisions
+- Market: India, English
+- Product scope: inferred from the landing-page repo (state as assumptions)
+- Deliverables: one Google Sheet (a tab per phase/deliverable) and one Google Doc (brief and roadmap)
+- Sources: free only, no paid credits (no Ahrefs/Similarweb)
+- Rule: never filter or weight keywords by the site's existing content or GSC rankings. GSC is secondary evidence only.
+
+## Phases
+1. Scope and evaluation framework
+2. Competitors and market
+3. Initial keyword universe
+4. Expand keyword ideas
+5. Search-demand data
+6. SERP and competition analysis
+7. Intent and business relevance
+8. Cluster keywords
+9. Score and prioritize (1-5 on relevance, demand, intent, competition, opportunity, value, confidence; test weights)
+10. Keyword-to-URL map
+11. Content roadmap
+12. Measurement framework
+
+## Product (assumption from repo)
+Free adaptive AI running-training app (iOS/Android). Builds plans from goal and race date, re-plans after missed runs, reads HRV, sleep and heart rate from Apple Watch, Garmin, COROS, WHOOP, Strava, Apple Health. Site has a race catalog (/races), free tools (marathon time predictor, fueling calculator, race-readiness quiz, shoe finder), a blog and /download.
+
+## Done so far
+- `data/autocomplete_raw.csv`: ~6,200 raw Google Autocomplete phrases (gl=in, hl=en) from 40 seeds + a-z. Source and date recorded per row. Autocomplete is not search volume.
+- `data/kw_clean.csv`: ~6,000 junk-filtered phrases with rule-based clusters (ai_app 954, india_races 877, plans_marathon 622, plans_5k_10k 584, shoes 480, goal_time 461, calculators 395, taper_longrun 384, fueling 325, plans_half 238, hr_recovery 223, beginner_howto 172, unclassified 298).
+- `scripts/`: `ac.py` (autocomplete), `cluster.py` (rule clustering), `tr.py` (Google Trends via pytrends, geo=IN).
+- Trends is heavily rate-limited; the full run did not finish. Use 60s+ gaps. Probe: "marathon" 45, "running shoes" 44, "running app" 5, "mumbai marathon" 2.4, "marathon training plan" ~0. India demand for plan/tool queries is tiny next to shoes and generic marathon interest. Trends is relative only.
+- SERPs checked with WebSearch (US-only, flag this caveat): marathon plan, AI coach app, India beginner plan, time predictor, fueling calculator, Runna/Strava alternatives, India beginner shoes, sub-4 plan, missed-week training, HRV, Mumbai plan, India calendar, pace calculator, 12-week half, race-readiness quiz.
+
+## Findings so far
+- Competitors by type: Nike, Marathon Handbook, Runner's World, Red Bull India, fatmarathoner.com, marathon-index.com, RunnersConnect, TrainingPeaks, Finalsurge, Omni Calculator, marathons.com. Apps: Runna (Strava-owned since 2025), Nike Run Club, TrainAsONE, 26weeks.ai, RunXP, SensAI, Edge, Garmin Coach, RunMotion, Runkeeper.
+- SERPs are full of vendor listicles and spam mirror domains.
+- Gaps: India heat-specific plans; real race-specific plans (Mumbai/Delhi/Bengaluru; marathon-index says "coming soon"); missed-training guidance; HRV decision guides (a single reading is weak evidence); honest India shoe guides.
+- GSC (sc-domain:orkarun.com, 90 days, secondary): long-tail race/event impressions with almost no clicks, e.g. "mumbai ultra marathon 2026" (189 impressions, position 10).
+
+## Remaining
+Phase 1 brief and framework; competitor DB; master keyword DB with source/date; demand dataset (unknowns and confidence marked); SERP sheet for top candidates with manual competition ratings; intent/relevance; clusters with primary/secondary keywords; scoring with weight sensitivity and tiers; keyword-to-URL map (existing pages: /, /races, /races/[slug], /tracker tools, /blog, /download); roadmap with briefs, internal links and metrics; measurement framework. Then build the Sheet and Doc.
+
+State the limits plainly in the deliverables: no absolute volumes, US-only SERPs, autocomplete is not volume.
