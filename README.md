@@ -43,3 +43,6 @@ Free adaptive AI running-training app (iOS/Android). Builds plans from goal and 
 Phase 1 brief and framework; competitor DB; master keyword DB with source/date; demand dataset (unknowns and confidence marked); SERP sheet for top candidates with manual competition ratings; intent/relevance; clusters with primary/secondary keywords; scoring with weight sensitivity and tiers; keyword-to-URL map (existing pages: /, /races, /races/[slug], /tracker tools, /blog, /download); roadmap with briefs, internal links and metrics; measurement framework. Then build the Sheet and Doc.
 
 State the limits plainly in the deliverables: no absolute volumes, US-only SERPs, autocomplete is not volume.
+
+## Update 2026-10-21: OpenSEO replaces failed sources
+Google Trends failed (rate-limited). OpenSEO is connected (project orkarun.com, India/en) and now supplies volumes, KD and SERPs. See `docs/openseo_findings.md` and `data/openseo_keyword_metrics_IN.csv`. This reverses the Trends probe: India plan/race/calculator demand is real. About 70 OpenSEO credits remain; the cloud session may not have the connector, so run further OpenSEO pulls from the local session.
