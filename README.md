@@ -61,3 +61,9 @@ See `docs/reseed_v2_findings.md`. 85 seeds from competitor plan taxonomies gave 
 
 ## Update: URL map and roadmap rebuilt
 `scripts/tables_v2.py` -> `outputs/keyword_to_url_map_v2.csv` and `outputs/content_roadmap_v2.csv`. Track A = core plan pages, B = adjacent India race pages, C = positioning. The v1 files remain for reference. "how to run a marathon" (18,100, KD 32) shares its volume pool with the marathon plan page; its SERP is weak, so draft the plan page first and then decide on a separate guide.
+
+## Update: OpenSEO-led discovery (seeds: plan, coach and app head terms; no couch to 5k)
+- `scripts/merge_openseo.py` merges OpenSEO outputs into `data/openseo_master_candidates.csv` (~2,100 keywords, India, with source domains and ranking pages).
+- `data/pools_1000plus.csv`: relevant keywords at 1,000+ searches a month, grouped into volume pools (same volume and sources = one pool).
+- Competitor ranked keywords pulled so far (volume 50+, rank top 30, first 100 rows per domain unless noted): halhigdon.com (200 of 309), on.com, marathonhandbook.com, mymottiv.com, runna.com, nonetorun.com, runningtrainingplan.com, nike.com/running, runnersworld.com/training, runpundit.com, runningcoach.in, runningcoach.me, training.runride2fit.com, findyouredge.app, runtothefinish.com, trainasone.com. Several domains have more rows than were fetched.
+- Keyword expansions: running coach, marathon coach, running app, marathon training app, marathon training plan (300 rows each).
