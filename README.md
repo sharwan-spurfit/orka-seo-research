@@ -67,3 +67,9 @@ See `docs/reseed_v2_findings.md`. 85 seeds from competitor plan taxonomies gave 
 - `data/pools_1000plus.csv`: relevant keywords at 1,000+ searches a month, grouped into volume pools (same volume and sources = one pool).
 - Competitor ranked keywords pulled so far (volume 50+, rank top 30, first 100 rows per domain unless noted): halhigdon.com (200 of 309), on.com, marathonhandbook.com, mymottiv.com, runna.com, nonetorun.com, runningtrainingplan.com, nike.com/running, runnersworld.com/training, runpundit.com, runningcoach.in, runningcoach.me, training.runride2fit.com, findyouredge.app, runtothefinish.com, trainasone.com. Several domains have more rows than were fetched.
 - Keyword expansions: running coach, marathon coach, running app, marathon training app, marathon training plan (300 rows each).
+
+## Update: rescored v3 after OpenSEO-led discovery
+- `scripts/score_v3.py` -> `outputs/keyword_clusters_scored_v3.csv` (23 clusters; volume gate = the cluster's biggest volume pool must be 1,000+ searches a month).
+- Competitor keyword pulls and expansions are merged in `data/openseo_master_candidates.csv` (3,241 keywords); relevant pools in `data/pools_1000plus.csv` (126 pools).
+- SERPs read this pass: training schedule for marathon, couch to 5k training plan, running coach, run club near me, interval training running, tempo run, running tracker app, average 10k time, warm up before running, strength workout for runners.
+- `outputs/keyword_to_url_map_v2.csv` and `outputs/content_roadmap_v2.csv` now include the tempo/intervals guide, the India running-apps roundup (wave 2) and a coaching mention inside the AI coach page.
