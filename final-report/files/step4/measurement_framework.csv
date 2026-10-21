@@ -1,0 +1,9 @@
+metric,source,cadence,what_it_tells_us,action_trigger
+Indexed pages and coverage,Google Search Console,Weekly,Whether new pages are indexed,"Page not indexed after 14 days: inspect URL, fix, request indexing"
+"Impressions, clicks, CTR, avg position by page and query",Google Search Console,"Weekly, monthly review",Queries each page actually ranks for,Position 8-20 with impressions: improve page; CTR under 2% at top 5: rewrite title
+"Real volume for unverified clusters (C04, C16, C19)",Search Console impressions,Monthly,Replaces missing volume estimates,"If impressions stay near zero after 60 days, demote the cluster"
+Organic sessions and landing pages,Google Analytics,Weekly,Traffic quality by page,Low engagement: revise intent match
+Tool uses and CTA clicks,Analytics events,Weekly,Whether pages turn visits into product use,Low CTA click rate: change placement
+App install clicks from organic,Analytics + store links,Monthly,Business outcome,"Compare clusters by installs per 1,000 sessions"
+Keyword rank for tier-1 terms,Search Console (and OpenSEO rank tracker if credits allow),Monthly,Progress on priority terms,Re-run SERP checks for stalled terms
+Assumption check,This research vs Search Console,Quarterly,"Where volume, difficulty or intent assumptions were wrong",Update scoring and roadmap
