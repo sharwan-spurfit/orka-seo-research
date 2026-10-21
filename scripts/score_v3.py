@@ -14,10 +14,10 @@ os.makedirs("outputs", exist_ok=True)
 C = [
  ("K01", "Core plan", "Marathon training plan pool (plan, schedule, program, guide)", "training schedule for marathon", 18100, "2-15",
   "marathon training plan; marathon training guide; how to run marathon (same pool); marathon distance is a separate answer pool",
-  "Marathon plan page", (5, 5, 5, 3, 4, 5), 5,
-  "Top: Hal Higdon, Nike, ASICS PDF, St Jude, Running Clinic, GU, Cancer Research UK. Mid-SERP is PDFs and charity pages; no India page."),
+  "Marathon plan page", (5, 5, 5, 3, 3, 5), 5,
+  "Opportunity cut to 3 after the backlink baseline (Orka 29 referring domains vs 2,300-3,800 for competitors). Top: Hal Higdon, Nike, ASICS PDF, St Jude, Running Clinic, GU, Cancer Research UK. Mid-SERP is PDFs and charity pages; no India page."),
  ("K02", "Core plan", "10K training plan pool", "10k training plan", 1900, "0",
-  "training schedule 10k; training program 10k (same pool)", "10K plan page", (5, 3, 5, 3, 4, 4), 5,
+  "training schedule 10k; training program 10k (same pool)", "10K plan page", (5, 3, 5, 3, 3, 4), 5,
   "Hal Higdon, charity PDFs, Nike, Strava, Decathlon Coach."),
  ("K03", "Core plan", "Half marathon training plan pool", "half marathon training plan", 1600, "10",
   "half marathon training schedule 320; running plan half marathon 320 (separate pools, under gate)", "Half marathon plan page", (5, 3, 5, 3, 3, 5), 5,
