@@ -58,3 +58,6 @@ See `docs/reseed_v2_findings.md`. 85 seeds from competitor plan taxonomies gave 
 
 ## Update: rescored (plan keywords core, race events adjacent)
 `scripts/score_v2.py` -> `outputs/keyword_clusters_scored_v2.csv`. Volumes: first set plus ~590 re-seeded keywords (OpenSEO, India). Added a volume gate: under 100 searches a month = section of a core page, not a traffic target. v1 scores kept in `outputs/keyword_clusters_scored.csv`. `outputs/keyword_to_url_map.csv` and `outputs/content_roadmap.csv` predate the rescore.
+
+## Update: URL map and roadmap rebuilt
+`scripts/tables_v2.py` -> `outputs/keyword_to_url_map_v2.csv` and `outputs/content_roadmap_v2.csv`. Track A = core plan pages, B = adjacent India race pages, C = positioning. The v1 files remain for reference. "how to run a marathon" (18,100, KD 32) shares its volume pool with the marathon plan page; its SERP is weak, so draft the plan page first and then decide on a separate guide.
