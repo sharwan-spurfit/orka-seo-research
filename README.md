@@ -55,3 +55,6 @@ Google Trends failed (rate-limited). OpenSEO is connected (project orkarun.com, 
 
 ## Update: re-seed v2 (competitor-derived seeds)
 See `docs/reseed_v2_findings.md`. 85 seeds from competitor plan taxonomies gave 5,805 cleaned phrases; only 27% overlap the first set. Volumes for the new plan-structure candidates are NOT checked (OpenSEO credits exhausted).
+
+## Update: rescored (plan keywords core, race events adjacent)
+`scripts/score_v2.py` -> `outputs/keyword_clusters_scored_v2.csv`. Volumes: first set plus ~590 re-seeded keywords (OpenSEO, India). Added a volume gate: under 100 searches a month = section of a core page, not a traffic target. v1 scores kept in `outputs/keyword_clusters_scored.csv`. `outputs/keyword_to_url_map.csv` and `outputs/content_roadmap.csv` predate the rescore.
