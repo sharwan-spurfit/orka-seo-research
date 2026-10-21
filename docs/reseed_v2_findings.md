@@ -34,3 +34,14 @@ Why: the first 40 seeds were written by me from Orka's features and my own knowl
 - The plan-keyword core is confirmed by volume already pulled: marathon training plan (18,100), 10k (1,900), half marathon (1,600), 5k (1,000), couch to 5k (1,000), running plan for beginners (480), marathon training plan pdf (210).
 - The India city race keywords did not come out of this competitor-derived pass. They came from my seeds and are validated by volume, but they are event-information intent, not training-plan intent. Treat them as an adjacent opportunity, not the core of a training-plan product.
 - New plan-structure ideas worth a page each if volume holds: odd-distance plans (8k, 15k, 10 mile, 50k), level-specific marathon plans, week-length variants, couch-to-marathon, strength-integrated plans, weight-loss running plan.
+
+## Update: volumes checked (OpenSEO upgraded, ~590 re-seeded keywords, India, 2026-10-21)
+`data/openseo_reseed_metrics_IN.csv` holds the rows with volume of 20 or more plus notable 10-volume plan structures.
+
+- **The long tail is thin.** Nearly every new plan variant is 10-40 searches a month: 8k plan 10, 50k plan 20, 10 mile plan 20, couch to marathon 10, 16 week marathon plan 40, 12 week marathon plan 30, intermediate marathon plan 10, advanced marathon plan 30, sub 20 5k plan 30. They do not justify their own pages. Fold them into the main plan pages as sections.
+- **Demand is in a few head terms.** marathon training plan(s) 18,100 (KD 10); 10k training plan 1,900; half marathon training plan(s) 1,600; 5k training plan 1,000; couch to 5k 1,000; running plan beginner 480; running plan half marathon 320; how to train marathon 320; running training plans 260; running training plan 5k 260.
+- **Generic terms are hard or small.** "running plan" 170 at KD 91; "running program" 320 at KD 75; "beginner marathon training plan" 210 at KD 71.
+- **Weight-loss plans are small but easy.** running plan weight loss 140 (KD 15); running program weight loss 140 (KD 16); running for fat loss plan 140 (KD 12).
+- **India city training terms are tiny.** marathon training in Bangalore 70; marathon training in Mumbai 70. "Marathon training plan india" returned no volume.
+- Google Ads groups close variants, so "marathon training plans" repeating 18,100 is the same pool as "marathon training plan".
+- Total plan-keyword demand in India is roughly 25,000-30,000 searches a month, and about 18,000 of it is the single marathon head term.
