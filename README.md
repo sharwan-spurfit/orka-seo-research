@@ -73,3 +73,6 @@ See `docs/reseed_v2_findings.md`. 85 seeds from competitor plan taxonomies gave 
 - Competitor keyword pulls and expansions are merged in `data/openseo_master_candidates.csv` (3,241 keywords); relevant pools in `data/pools_1000plus.csv` (126 pools).
 - SERPs read this pass: training schedule for marathon, couch to 5k training plan, running coach, run club near me, interval training running, tempo run, running tracker app, average 10k time, warm up before running, strength workout for runners.
 - `outputs/keyword_to_url_map_v2.csv` and `outputs/content_roadmap_v2.csv` now include the tempo/intervals guide, the India running-apps roundup (wave 2) and a coaching mention inside the AI coach page.
+
+## Update: research complete (21 Oct 2026)
+See `docs/final_findings.md`: seasonality, backlink baseline, top-page inspection, 2-competitor keyword gap (`data/keyword_gap_2plus_competitors.csv`) and rank-tracking cost. Final scores: `outputs/keyword_clusters_scored_v3.csv`.

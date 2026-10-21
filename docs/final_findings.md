@@ -3,7 +3,7 @@
 ## Seasonality (OpenSEO monthly volumes, Oct 2025 - Sep 2026)
 - Marathon plan pool (18,100 average): about 1,900 (Oct), 2,400 (Nov), a one-month spike to 110,000 (Dec 2025), 5,400 (Jan), 27,100 (Feb and Mar), then 2,900-5,400 (Apr-Aug) and 14,800 (Sep 2026). Demand clusters in Dec-Mar and starts rising from Sep. The marathon page should be live and indexed before December.
 - 10K plan: peak 5,400 in Dec 2025 (average 1,775). 5K plan: peak 1,600 in Dec. Half marathon plan: peak 5,400 around Apr/Aug 2026.
-- Delhi Half Marathon peaks in Oct; Mumbai, Pune and Bengaluru marathon searches peak around Jan.
+- Delhi Half Marathon peaks in Oct; Mumbai, Pune and Bengaluru marathon searches peak around the January races.
 - "How to start running" shows a one-month spike (14,800 in Sep 2026), probably an event; treat its 2,400 average with caution.
 - Google Trends was not used.
 
